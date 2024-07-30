@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.graymatter.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.graymatter.CalculatorTest
+initializationError(com.graymatter.CalculatorTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Exception: Method beforeClassMethod() should be static
+
+initializationError(com.graymatter.CalculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method afterClassMethod() should be static
+

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.graymatter.PersonTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.graymatter.PersonTest
+testGetPersonById(com.graymatter.PersonTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.graymatter.PersonDriver.addPerson(com.graymatter.Person)" because "this.driver" is null
+	at com.graymatter.PersonTest.testGetPersonById(PersonTest.java:33)
+
+testGetAllPersonInfo(com.graymatter.PersonTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.graymatter.PersonDriver.addPerson(com.graymatter.Person)" because "this.driver" is null
+	at com.graymatter.PersonTest.testGetAllPersonInfo(PersonTest.java:46)
+
+testUpdatePerson(com.graymatter.PersonTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.graymatter.PersonDriver.addPerson(com.graymatter.Person)" because "this.driver" is null
+	at com.graymatter.PersonTest.testUpdatePerson(PersonTest.java:60)
+
+testDeletePerson(com.graymatter.PersonTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.graymatter.PersonDriver.addPerson(com.graymatter.Person)" because "this.driver" is null
+	at com.graymatter.PersonTest.testDeletePerson(PersonTest.java:78)
+
+testAddPerson(com.graymatter.PersonTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.graymatter.PersonDriver.addPerson(com.graymatter.Person)" because "this.driver" is null
+	at com.graymatter.PersonTest.testAddPerson(PersonTest.java:22)
+
